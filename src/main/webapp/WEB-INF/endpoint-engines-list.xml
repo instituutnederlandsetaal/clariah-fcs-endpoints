@@ -1,24 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Engines>
 
-	<Engine>
-		<engine-name>nederlab</engine-name>
-		<engine-type>nederlab</engine-type>
-		<engine-url>https://www.nederlab.nl/api/mtas</engine-url>
-		<engine-native-url-template>https://www.nederlab.nl/onderzoeksportaal/?action=results&amp;cql-expert=</engine-native-url-template>
-		<tagset-conversion-table>UD2CGNNederlab</tagset-conversion-table>
-		<nederlab-extra-response-fields>
-			<field>NLCore_NLIdentification_editorialCode</field>
-			<field>NLCore_NLIdentification_sourceRef</field>
-			<field>NLTitle_yearOfPublicationMax</field>
-			<field>NLTitle_textYearMax</field>
-			<field>NLTitle_textQuality</field>
-			<field>NLDependentTitle_subtitle</field>
-		</nederlab-extra-response-fields>
-		<restrict-total-number-of-results>10</restrict-total-number-of-results>
-		<nederlab-query-template-location>nederlab_query_template.json</nederlab-query-template-location>
-		<nederlab-document-query-template-location>nederlab_document_query_template.json</nederlab-document-query-template-location>
-	</Engine>
+
 
 	<Engine>
 		<engine-name>opensonar</engine-name>
@@ -41,7 +24,7 @@
 	<Engine>
 		<engine-name>zeebrieven</engine-name>
 		<engine-type>blacklabserver</engine-type>
-		<engine-url>http://svprmc12.ivdnt.org/blacklab-server/BaB</engine-url>
+		<engine-url>https://brievenalsbuit.ivdnt.org/blacklab-server/BaB</engine-url>
 		<engine-native-url-template>https://brievenalsbuit.ivdnt.org/corpus-frontend/BaB</engine-native-url-template>
 		<tagset-conversion-table>UD2BaB</tagset-conversion-table>
 	</Engine>
@@ -49,7 +32,7 @@
 	<Engine>
 		<engine-name>gysseling</engine-name>
 		<engine-type>blacklabserver</engine-type>
-		<engine-url>http://svprmc12.ivdnt.org/blacklab-server/Gysseling</engine-url>
+		<engine-url>https://corpusgysseling.ivdnt.org/blacklab-server/Gysseling</engine-url>
 		<engine-native-url-template>https://corpusgysseling.ivdnt.org/corpus-frontend/Gysseling</engine-native-url-template>
 		<tagset-conversion-table>UD2GYS</tagset-conversion-table>
 	</Engine>
