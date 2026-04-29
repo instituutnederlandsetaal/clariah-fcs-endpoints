@@ -13,15 +13,6 @@
 	</Engine>
 
 	<Engine>
-		<engine-name>chn</engine-name>
-		<engine-type>blacklabserver</engine-type>
-		<engine-url>http://svprec10.ivdnt.loc/blacklab-server-chn/chn-extern</engine-url>
-		<restrict-total-number-of-results>10</restrict-total-number-of-results>
-		<engine-native-url-template>https://portal.clarin.inl.nl/corpus-frontend-chn/chn-extern</engine-native-url-template>
-		<tagset-conversion-table>UD2CHN</tagset-conversion-table>
-	</Engine>
-
-	<Engine>
 		<engine-name>zeebrieven</engine-name>
 		<engine-type>blacklabserver</engine-type>
 		<engine-url>https://brievenalsbuit.ivdnt.org/blacklab-server/BaB</engine-url>
